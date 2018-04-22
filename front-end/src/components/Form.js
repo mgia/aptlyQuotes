@@ -17,13 +17,15 @@ class Form extends Component {
 	triggerChange = () => {
 		var options = {
 			url: 'http://text-processing.com/api/sentiment/',
-			form: { 'text': 'happy' },
-			// ivan
+			body: 'text=' + this.state.inputValue,
+			method: 'POST',
 			headers: {
-				// 'Access-Control-Allow-Origin': '*'
-			}
-		}
-		request.post(options, this.callback)
+				'Content-Type': 'application/x-www-form-urlencoded'
+			},
+		};
+		fetch(options.url, options)
+			.then((res) => res.json())
+			.then((json) => console.log(json));
 		console.log("send me")
 	}
 
@@ -50,3 +52,4 @@ class Form extends Component {
 }
 
 export default Form;
+// 
