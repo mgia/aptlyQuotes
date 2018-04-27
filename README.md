@@ -14,8 +14,19 @@ We have created an in-house improved search engine for finding apt quotes using 
 For example:<br>
 "birthday elegant" - Returns a list of quotes for your mother that is elegant<br>
 "birthday funny" - Returns a list of quotes for your mother that is humourous
-"love music"
-"love women"
+
+## Usage
+- Run `npm start`
+- Use a web browser to access localhost:3000.
+- To test cyberbullying linter, type `I hate you` and wait for two seconds. Try `I dislike you` and see that nothing appears.
+- To test quote search, type two parameters, such as:
+```
+motivational startup
+motivational depressed
+love women
+love music
+true love
+```
 
 ## Team
 This project was built by an interesting team of myself, Vasooda, Eduardo and Pablo!
