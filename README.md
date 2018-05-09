@@ -16,6 +16,7 @@ For example:<br>
 "birthday funny" - Returns a list of quotes for your mother that is humourous
 
 ## Usage
+- `cd front-end'
 - Run `npm start`
 - Use a web browser to access localhost:3000.
 - To test cyberbullying linter, type `I hate you` and wait for two seconds. Try `I dislike you` and see that nothing appears.
