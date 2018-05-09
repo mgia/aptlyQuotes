@@ -1,19 +1,24 @@
-# Aptly Quotes
-Consider this:
+# Aptly Quotes 
+### Consider this:
 ```
 You're looking for the perfect quote for a gift card, a writing assignment or a social media post,
 but it takes too much time and effort to Google for a suitable quote.
 ```
 
 ## Overview
-This product was created in five hours for Startup Weekend Silicon Valley. In the context of social innovation, we have also added a linter for cyberbullying.
+This product was created in five hours for Startup Weekend Silicon Valley.<br>
+In the context of social innovation, we added a **linter for cyberbullying**.
 
 ## Solution
-We have created an in-house improved search engine for finding apt quotes using react. It allows people to filter more specifically for their needs and preferences.
+Using ReactJS, we created an improved search engine for finding apt quotes. It allows people to filter specifically for their needs and preferences.
 
-For example:<br>
-"birthday elegant" - Returns a list of quotes for your mother that is elegant<br>
-"birthday funny" - Returns a list of quotes for your mother that is humourous
+Also, we do **sentiment analysis** to check for crude language and create flags to alert users.
+
+#### Before:
+<img src="https://raw.githubusercontent.com/mgia/aptlyquotes/master/img/before.png" />
+
+#### After:
+<img src="https://raw.githubusercontent.com/mgia/aptlyquotes/master/img/after.png" />
 
 ## Usage
 - `cd front-end`
@@ -27,6 +32,8 @@ motivational depressed
 love women
 love music
 true love
+birthday elegant
+birthday funny
 ```
 
 ## Team
